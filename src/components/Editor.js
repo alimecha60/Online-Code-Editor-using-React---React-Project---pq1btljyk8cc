@@ -17,7 +17,7 @@ import { faCompressAlt, faExpandAlt } from '@fortawesome/free-solid-svg-icons'
   } = props
   const [open, setOpen] = useState(true)
 
-  function handleChange(editor, data, value) {
+  function handleChange(  value) {
     onChange(value)
   }
 
